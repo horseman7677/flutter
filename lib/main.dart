@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var day = "monday"; // any type can make
-    const pi = 3.14; //never change
+    // var day = "monday"; // any type can make
+    // const pi = 3.14; //never change
 
     return MaterialApp(
       home: HomePage(),
