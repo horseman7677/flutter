@@ -9,11 +9,19 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Horseman"),
+        title: Text(
+          "Horseman",
+        ),
       ),
       body: Center(
         child: Container(
-          child: Text("hey there i am $name $days"),
+          child: Text(
+            "hey there i am $name",
+            style: TextStyle(
+              color: Colors.blueGrey,
+              fontSize: 20,
+            ),
+          ),
         ),
       ),
       drawer: Drawer(),
